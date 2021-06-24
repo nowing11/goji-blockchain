@@ -1,7 +1,7 @@
 [submodule "goji-blockchain-gui"]
 	path = goji-blockchain-gui
 	url = https://github.com/GetGoji/goji-blockchain-gui.git
-	branch = main
+	branch = master
 [submodule "mozilla-ca"]
 	path = mozilla-ca
 	url = https://github.com/Chia-Network/mozilla-ca.git
