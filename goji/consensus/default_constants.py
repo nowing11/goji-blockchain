@@ -32,7 +32,7 @@ testnet_kwargs = {
     # Forks of goji should change this value to provide replay attack protection. This is set to mainnet genesis chall
     "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("c9b286608b2a622442408a720dbee26e59af0dca2872bb8fdba3d3197874e87f"),
     "GENESIS_PRE_FARM_POOL_PUZZLE_HASH": bytes.fromhex(
-        "d23da14695a188ae5708dd152263c4db883eb27edeb936178d4d988b8f3ce5fc"
+        "dcb623b4bbf555beacfa2af17c301271a8b44b805feb0bf23c557f96c1b09399"
     ),
     "GENESIS_PRE_FARM_FARMER_PUZZLE_HASH": bytes.fromhex(
         "3d8765d3a597ec1d99663f6c9816d915b9f68613ac94009884c4addaefcce6af"
