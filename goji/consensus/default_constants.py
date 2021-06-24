@@ -32,10 +32,10 @@ testnet_kwargs = {
     # Forks of goji should change this value to provide replay attack protection. This is set to mainnet genesis chall
     "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("c9b286608b2a622442408a720dbee26e59af0dca2872bb8fdba3d3197874e87f"),
     "GENESIS_PRE_FARM_POOL_PUZZLE_HASH": bytes.fromhex(
-        "dcb623b4bbf555beacfa2af17c301271a8b44b805feb0bf23c557f96c1b09399"
+        "06fc7f7ca5fd4716cadac61201d5ed7454830a26282459e5838bb1a4483b6b71"
     ),
     "GENESIS_PRE_FARM_FARMER_PUZZLE_HASH": bytes.fromhex(
-        "3d8765d3a597ec1d99663f6c9816d915b9f68613ac94009884c4addaefcce6af"
+        "fc746041140734951e50bf227a93d97de1a1771fcd02c4a64d74f22f2bb42e8b"
     ),
     "MAX_VDF_WITNESS_SIZE": 64,
     # Size of mempool = 50x the size of block
