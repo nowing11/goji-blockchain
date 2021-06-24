@@ -5,9 +5,9 @@ We are happy that you are taking a look at the code for Goji, a proof of space a
 
 A lot of fascinating new cryptography and blockchain concepts are used and implemented here.
 This repo includes the code for the Goji full node, farmer, and timelord (in goji folder), which are all written in python.
-It also includes a verifiable delay function implementation that it imports from the [chiavdf repo](https://github.com/Goji-Network/chiavdf) (in c/c++), and a proof of space implementation that it imports from the [chiapos repo](https://github.com/Goji-Network/chiapos). BLS signatures are imported from the [bls-signatures repo](https://github.com/Goji-Network/bls-signatures) as blspy. There is an additional dependency on the [gojibip158 repo](https://github.com/Goji-Network/gojibip158). For major platforms, binary and source wheels are shipped to PyPI from each dependent repo. Then goji-blockchain can pip install those from PyPI or they can be prepackaged as is done for the Windows installer. On unsupported platforms, pip will fall back to the source distributions, to be compiled locally.
+It also includes a verifiable delay function implementation that it imports from the [chiavdf repo](https://github.com/Chia-Network/chiavdf) (in c/c++), and a proof of space implementation that it imports from the [chiapos repo](https://github.com/Chia-Network/chiapos). BLS signatures are imported from the [bls-signatures repo](https://github.com/GetGoji/bls-signatures) as blspy. There is an additional dependency on the [gojibip158 repo](https://github.com/GetGoji/gojibip158). For major platforms, binary and source wheels are shipped to PyPI from each dependent repo. Then goji-blockchain can pip install those from PyPI or they can be prepackaged as is done for the Windows installer. On unsupported platforms, pip will fall back to the source distributions, to be compiled locally.
 
-If you want to learn more about this project, read the [wiki](https://github.com/Goji-Network/goji-blockchain/wiki), or check out the [green paper](https://www.chia.net/assets/GojiGreenPaper.pdf).
+If you want to learn more about this project, read the [wiki](https://github.com/GetGoji/goji-blockchain/wiki), or check out the [green paper](https://www.chia.net/assets/GojiGreenPaper.pdf).
 
 ## Contributions
 
@@ -82,7 +82,7 @@ workflow.
 3. Install BlackConnect plugin
 4. Set to run python black on save
 5. Set line length to 120
-6. Install these linters https://github.com/Goji-Network/goji-blockchain/tree/main/.github/linters
+6. Install these linters https://github.com/GetGoji/goji-blockchain/tree/main/.github/linters
 
 ## Testnets and review environments
 

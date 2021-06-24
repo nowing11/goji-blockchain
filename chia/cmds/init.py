@@ -21,7 +21,7 @@ def init_cmd(ctx: click.Context, create_certs: str):
     - Run `goji init -c [directory]` on your remote harvester,
       where [directory] is the the copy of your Farming Machine CA directory
     - Get more details on remote harvester on Goji wiki:
-      https://github.com/Goji-Network/goji-blockchain/wiki/Farming-on-many-machines
+      https://github.com/GetGoji/goji-blockchain/wiki/Farming-on-many-machines
     """
     from pathlib import Path
     from .init_funcs import init

@@ -4,7 +4,7 @@
 
 | Current Release/main | Development Branch/dev |
 |         :---:          |          :---:         |
-| [![Ubuntu Core Tests](https://github.com/Goji-Network/goji-blockchain/actions/workflows/build-test-ubuntu-core.yml/badge.svg)](https://github.com/Goji-Network/goji-blockchain/actions/workflows/build-test-ubuntu-core.yml) [![MacOS Core Tests](https://github.com/Goji-Network/goji-blockchain/actions/workflows/build-test-macos-core.yml/badge.svg)](https://github.com/Goji-Network/goji-blockchain/actions/workflows/build-test-macos-core.yml) [![Windows Installer on Windows 10 and Python 3.7](https://github.com/Goji-Network/goji-blockchain/actions/workflows/build-windows-installer.yml/badge.svg)](https://github.com/Goji-Network/goji-blockchain/actions/workflows/build-windows-installer.yml)  |  [![Ubuntu Core Tests](https://github.com/Goji-Network/goji-blockchain/actions/workflows/build-test-ubuntu-core.yml/badge.svg?branch=dev)](https://github.com/Goji-Network/goji-blockchain/actions/workflows/build-test-ubuntu-core.yml) [![MacOS Core Tests](https://github.com/Goji-Network/goji-blockchain/actions/workflows/build-test-macos-core.yml/badge.svg?branch=dev)](https://github.com/Goji-Network/goji-blockchain/actions/workflows/build-test-macos-core.yml) [![Windows Installer on Windows 10 and Python 3.7](https://github.com/Goji-Network/goji-blockchain/actions/workflows/build-windows-installer.yml/badge.svg?branch=dev)](https://github.com/Goji-Network/goji-blockchain/actions/workflows/build-windows-installer.yml) |
+| [![Ubuntu Core Tests](https://github.com/GetGoji/goji-blockchain/actions/workflows/build-test-ubuntu-core.yml/badge.svg)](https://github.com/GetGoji/goji-blockchain/actions/workflows/build-test-ubuntu-core.yml) [![MacOS Core Tests](https://github.com/GetGoji/goji-blockchain/actions/workflows/build-test-macos-core.yml/badge.svg)](https://github.com/GetGoji/goji-blockchain/actions/workflows/build-test-macos-core.yml) [![Windows Installer on Windows 10 and Python 3.7](https://github.com/GetGoji/goji-blockchain/actions/workflows/build-windows-installer.yml/badge.svg)](https://github.com/GetGoji/goji-blockchain/actions/workflows/build-windows-installer.yml)  |  [![Ubuntu Core Tests](https://github.com/GetGoji/goji-blockchain/actions/workflows/build-test-ubuntu-core.yml/badge.svg?branch=dev)](https://github.com/GetGoji/goji-blockchain/actions/workflows/build-test-ubuntu-core.yml) [![MacOS Core Tests](https://github.com/GetGoji/goji-blockchain/actions/workflows/build-test-macos-core.yml/badge.svg?branch=dev)](https://github.com/GetGoji/goji-blockchain/actions/workflows/build-test-macos-core.yml) [![Windows Installer on Windows 10 and Python 3.7](https://github.com/GetGoji/goji-blockchain/actions/workflows/build-windows-installer.yml/badge.svg?branch=dev)](https://github.com/GetGoji/goji-blockchain/actions/workflows/build-windows-installer.yml) |
 
 ![GitHub contributors](https://img.shields.io/github/contributors/Goji-Network/goji-blockchain?logo=GitHub)
 
@@ -18,8 +18,8 @@ Goji is a modern cryptocurrency built from scratch, designed to be efficient, de
 * Support for light clients with fast, objective syncing
 * A growing community of farmers and developers around the world
 
-Please check out the [wiki](https://github.com/Goji-Network/goji-blockchain/wiki)
-and [FAQ](https://github.com/Goji-Network/goji-blockchain/wiki/FAQ) for
+Please check out the [wiki](https://github.com/GetGoji/goji-blockchain/wiki)
+and [FAQ](https://github.com/GetGoji/goji-blockchain/wiki/FAQ) for
 information on this project.
 
 Python 3.7+ is required. Make sure your default python version is >=3.7
@@ -40,13 +40,13 @@ for consensus.
 ## Installing
 
 Install instructions are available in the
-[INSTALL](https://github.com/Goji-Network/goji-blockchain/wiki/INSTALL)
+[INSTALL](https://github.com/GetGoji/goji-blockchain/wiki/INSTALL)
 section of the
-[goji-blockchain repository wiki](https://github.com/Goji-Network/goji-blockchain/wiki).
+[goji-blockchain repository wiki](https://github.com/GetGoji/goji-blockchain/wiki).
 
 ## Running
 
 Once installed, a
-[Quick Start Guide](https://github.com/Goji-Network/goji-blockchain/wiki/Quick-Start-Guide)
+[Quick Start Guide](https://github.com/GetGoji/goji-blockchain/wiki/Quick-Start-Guide)
 is available from the repository
-[wiki](https://github.com/Goji-Network/goji-blockchain/wiki).
+[wiki](https://github.com/GetGoji/goji-blockchain/wiki).

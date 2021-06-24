@@ -20,7 +20,7 @@ if [ "$(uname -m)" = "armv7l" ]; then
 	echo "WARNING:"
 	echo "The Goji Blockchain requires a 64 bit OS and this is 32 bit armv7l"
 	echo "For more information, see"
-	echo "https://github.com/Goji-Network/goji-blockchain/wiki/Raspberry-Pi"
+	echo "https://github.com/GetGoji/goji-blockchain/wiki/Raspberry-Pi"
 	echo "Exiting."
 	exit 1
 fi
@@ -125,7 +125,7 @@ echo "For assistance join us on Keybase in the #testnet chat channel:"
 echo "https://keybase.io/team/chia.network.public"
 echo ""
 echo "Try the Quick Start Guide to running goji-blockchain:"
-echo "https://github.com/Goji-Network/goji-blockchain/wiki/Quick-Start-Guide"
+echo "https://github.com/GetGoji/goji-blockchain/wiki/Quick-Start-Guide"
 echo ""
 echo "To install the GUI type 'sh install-gui.sh' after '. ./activate'."
 echo ""
