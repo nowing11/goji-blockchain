@@ -6,7 +6,7 @@ import time
 from concurrent.futures.process import ProcessPoolExecutor
 from typing import Dict, List, Optional, Set, Tuple
 from blspy import AugSchemeMPL, G1Element
-from gojibip158 import PyBIP158
+from chiabip158 import PyBIP158
 
 from goji.consensus.block_record import BlockRecord
 from goji.consensus.constants import ConsensusConstants
