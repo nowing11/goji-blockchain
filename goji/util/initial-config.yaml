@@ -306,7 +306,7 @@ full_node:
       port: 7446
   introducer_peer:
       host: introducer.getgoji.net  # Goji AWS introducer IPv4/IPv6
-      port: 7444
+      port: 7445
   wallet_peer:
     host: *self_hostname
     port: 7449
@@ -388,7 +388,7 @@ wallet:
 
   introducer_peer:
     host: introducer.getgoji.net # Goji AWS introducer IPv4/IPv6
-    port: 7444
+    port: 7445
 
   ssl:
     private_crt:  "config/ssl/wallet/private_wallet.crt"
