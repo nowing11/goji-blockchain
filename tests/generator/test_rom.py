@@ -18,7 +18,7 @@ from goji.wallet.puzzles.load_clvm import load_clvm
 MAX_COST = int(1e15)
 
 
-DESERIALIZE_MOD = load_clvm("gojilisp_deserialisation.clvm", package_or_requirement="goji.wallet.puzzles")
+DESERIALIZE_MOD = load_clvm("chialisp_deserialisation.clvm", package_or_requirement="goji.wallet.puzzles")
 
 
 GENERATOR_CODE = """

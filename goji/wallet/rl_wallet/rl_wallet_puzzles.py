@@ -7,7 +7,7 @@ from goji.types.blockchain_format.program import Program
 from goji.types.blockchain_format.sized_bytes import bytes32
 from goji.types.condition_opcodes import ConditionOpcode
 from goji.util.ints import uint64
-from goji.wallet.gojilisp import sexp
+from goji.wallet.chialisp import sexp
 from goji.wallet.puzzles.load_clvm import load_clvm
 
 RATE_LIMITED_MODE = 1

@@ -4,7 +4,7 @@ from goji.types.blockchain_format.program import Program, INFINITE_COST
 from goji.util.byte_types import hexstr_to_bytes
 from goji.wallet.puzzles.load_clvm import load_clvm
 
-DESERIALIZE_MOD = load_clvm("gojilisp_deserialisation.clvm", package_or_requirement="goji.wallet.puzzles")
+DESERIALIZE_MOD = load_clvm("chialisp_deserialisation.clvm", package_or_requirement="goji.wallet.puzzles")
 
 
 def serialized_atom_overflow(size):

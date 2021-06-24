@@ -9,7 +9,7 @@ wallet_program_files = set(
     [
         "goji/wallet/puzzles/calculate_synthetic_public_key.clvm",
         "goji/wallet/puzzles/cc.clvm",
-        "goji/wallet/puzzles/gojilisp_deserialisation.clvm",
+        "goji/wallet/puzzles/chialisp_deserialisation.clvm",
         "goji/wallet/puzzles/rom_bootstrap_generator.clvm",
         "goji/wallet/puzzles/generator_for_single_coin.clvm",
         "goji/wallet/puzzles/genesis-by-coin-id-with-0.clvm",

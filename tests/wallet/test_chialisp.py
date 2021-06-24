@@ -1,6 +1,6 @@
 import pytest
 
-from goji.wallet.gojilisp import (
+from goji.wallet.chialisp import (
     apply,
     args,
     cons,
@@ -17,7 +17,7 @@ from goji.wallet.gojilisp import (
 )
 
 
-class TestGojilisp:
+class TestChialisp:
     def test_sexp(self):
         assert sexp() == "()"
         assert sexp(1) == "(1)"
