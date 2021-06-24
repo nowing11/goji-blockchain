@@ -306,7 +306,7 @@ full_node:
       port: 7446
   introducer_peer:
       host: introducer.getgoji.net  # Goji AWS introducer IPv4/IPv6
-      port: 7445
+      port: 7444
   wallet_peer:
     host: *self_hostname
     port: 7449
@@ -343,7 +343,7 @@ ui:
 
 introducer:
   host: *self_hostname
-  port: 7445
+  port: 7444
   max_peers_to_send: 20
   # The introducer will only return peers who it has seen in the last
   # recent_peer_threshold seconds
@@ -388,7 +388,7 @@ wallet:
 
   introducer_peer:
     host: introducer.getgoji.net # Goji AWS introducer IPv4/IPv6
-    port: 7445
+    port: 7444
 
   ssl:
     private_crt:  "config/ssl/wallet/private_wallet.crt"
