@@ -30,7 +30,7 @@ testnet_kwargs = {
     # Default used for tests is std_hash(b'')
     "GENESIS_CHALLENGE": bytes.fromhex("76125506ef3b7229cda2c552545c975729cff5e7ad8ed218274184d6b2b14404"),
     # Forks of goji should change this value to provide replay attack protection. This is set to mainnet genesis chall
-    "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("c9b286608b2a622442408a720dbee26e59af0dca2872bb8fdba3d3197874e87f"),
+    "AGG_SIG_ME_ADDITIONAL_DATA": bytes.fromhex("71a8f9db32f6b5b90dc1fbbdb9f8f0d41c8fc9f695b88fcb88cfa61c14d4393d"),
     "GENESIS_PRE_FARM_POOL_PUZZLE_HASH": bytes.fromhex(
         "06fc7f7ca5fd4716cadac61201d5ed7454830a26282459e5838bb1a4483b6b71"
     ),

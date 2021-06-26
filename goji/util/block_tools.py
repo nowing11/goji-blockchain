@@ -1180,7 +1180,7 @@ def get_challenges(
 
 
 def get_plot_dir() -> Path:
-    cache_path = Path(os.path.expanduser(os.getenv("GOJI_ROOT", "~/.goji/"))) / "test-plots"
+    cache_path = Path(os.path.expanduser(os.getenv("GOJI_ROOT", "~/.goji-blockchain/"))) / "test-plots"
     mkdir(cache_path)
     return cache_path
 
