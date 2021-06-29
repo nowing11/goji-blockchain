@@ -42,10 +42,10 @@ dev_dependencies = [
 
 kwargs = dict(
     name="goji-blockchain",
-    author="Mariano Sorgente",
-    author_email="mariano@chia.net",
+    author="Goji",
+    author_email="info@getgoji.net",
     description="Goji blockchain full node, farmer, timelord, and wallet.",
-    url="https://chia.net/",
+    url="https://getgoji.net/",
     license="Apache License",
     python_requires=">=3.7, <4",
     keywords="goji blockchain node",
